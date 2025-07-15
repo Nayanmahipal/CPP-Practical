@@ -4,33 +4,33 @@
 
  inline void show(){	
  	 
- 	 double A,B;
+ 	 double X,Y;
  	 char Operator;
  	 
  	 cout<<"Enter First Value Of A: ";
- 	 cin>>A;
+ 	 cin>>X;
  	 cout<<"Enter Second Value Of B: ";
- 	 cin>>B;
+ 	 cin>>Y;
  	 cout<<"Enter Operator(+,-,*,/): ";
  	 cin>>Operator;
 
  
  switch(Operator) {
  	case '+':
- 	 cout<<"Addition: "<<A+B;
+ 	 cout<<"Addition: "<<X+Y;
      break;
  		
  	case '-':
-	 cout<<"Substraction: "<<A-B;
+	 cout<<"Substraction: "<<X-Y;
 	 break;
 	 
 	case '*':
-	 cout<<"Multiplication: "<<A*B;
+	 cout<<"Multiplication: "<<X*Y;
 	 break;
 	 
 	case '/':
 	 if(B!=0){
-	 	cout<<"Division: "<<A/B;
+	 	cout<<"Division: "<<X/Y;
 	 }else{
 	 	cout<<"Invalid Division!!";
 	 break;
